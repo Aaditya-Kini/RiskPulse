@@ -12,8 +12,7 @@ To handle data efficiently and mimic a production environment, data is stored in
 * **Persistent Storage:** Migrated flat CSV data into a persistent `SQLite` database.
 * **Advanced SQL:** Utilized **Common Table Expressions (CTEs)** and **Window Functions** to engineer features directly in the database (e.g., calculating individual income variance against peer averages) to reduce memory load on the application layer.
 
-*(Placeholder: Insert your Entity-Relationship Diagram image here)*
-> `![Database ERD](db_schema.png)`
+![Database ERD](db_schema.png)
 
 ## Tech Stack
 * **Data Engineering & Storage:** SQLite, Advanced SQL (CTEs, Window Functions), Pandas
